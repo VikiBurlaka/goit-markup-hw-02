@@ -1,0 +1,243 @@
+:root {
+    --dark-color:#212121;
+    --grey-color:#757575;
+    --white-color:#FFFFFF;
+    --blue-color:#2196F3;
+    --black-color: #000000;
+    --bg-color-site-header:#FFFFFF;
+    --bg-color-header-footer:#2F303A;
+    --bg-color-main:#E5E5E5;
+    --bg-color-main-btn:#2196F3;
+    --bg-color-team-btn: #F5F4FA;
+    --adress-footer-color:rgba(255, 255, 255, 0.6);
+}
+
+.body {
+    background: #E5E5E5;
+    color: #757575;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+
+
+
+
+/*--------------------------------------logo----------------------------------------------------------*/
+.logo {
+    color:var(--blue-color);
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    Font-size: 26px;
+    line-height: 1,2;
+    text-decoration: none;
+}
+
+.logo-one {
+    color:var(--black-color);
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    Font-size: 26px;
+    line-height: 1,2;
+    text-decoration: none;
+}
+
+/*---------------------------site-nave----------------------------------------------------------------*/
+
+.link-activ:hover, 
+.link-activ:focus {
+    color: var(--grey-color)
+}
+
+.link-activ {
+    color: var(--blue-color);
+    font-family:Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    Line-height: 1,14;
+    text-decoration: none;
+}
+
+.link {
+    color: var(--dark-color);
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    Line-height: 1,14;
+    text-decoration: none;
+}
+
+/*--------------------------------auth-nav-------------------------------------------------------------*/
+
+.list-activ:hover,
+.list-activ:focus {
+    color: var(--blue-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    Line-height: 1, 14;
+    text-decoration: none;
+}
+
+.list {
+    color: var(--grey-color);
+    font-family : Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    Line-height: 1,14;
+    text-decoration: none;
+}
+
+/*--------------------------------hero----------------------------------------------------------------*/
+
+.hero-title {
+    color: var(--white-color);
+    background: var(--bg-color-header-footer);
+    font-family: Roboto,sans-serif;
+    font-weight: 900;
+    font-size: 44px ;
+    line-height: 1,36;
+}
+
+
+.hero-btn {
+    color: var(--white-color);
+    background: var(--bg-color-main-btn);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,8;
+}
+
+
+/*-------------------------------section---------------------------------------------------------------*/
+
+.section-title {
+    color: var(--dark-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+}
+
+.section-text {
+    color: var(--grey-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+}
+
+/*-----------------------------------unit--------------------------------------------------------------*/
+.unit-title {
+    color: var(--dark-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+}
+
+.one-title {
+    color: var(--dark-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16;
+}
+
+/*-----------------------------------team-------------------------------------------------------------*/
+.team-title {
+    color: var(--dark-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,1;
+    
+}
+
+.team-text {
+    color: var(--grey-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,1;
+    
+}
+.team {
+    background-color: var(--bg-color-team-btn)
+}
+
+/*----------------------------------adress------------------------------------------------------------*/
+.adress {
+ background-color: var(--bg-color-header-footer);
+}
+
+
+.logo-two {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.adress-link {
+    color: var(--white-color);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    text-decoration: none;
+}
+
+.contacts-link {
+    color: var(--adress-footer-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    text-decoration: none;
+}
+
+/*----------------------------------портфолио---------------------------------------------------------*/
+
+.project-title {
+    color: var(--dark-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project-item {
+    color: var(--grey-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+}
+
+
+/*-----------------------------портфолио--------------------------------------------------------------*/
+
+
+/*----------------------------filters-----------------------------------------------------------------*/
+.filters-btn {
+    color: var(--white-color);
+    background-color: var(--bg-color-main-btn);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+}
+
+.btn {
+color: var(--dark-color);
+background-color: var(--bg-color-team-btn);
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+}
