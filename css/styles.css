@@ -63,7 +63,7 @@ body {
     color: var(--bg-color-main-btn);
 }
 
-.header-list .link-activ{
+.header-list .activ{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -106,7 +106,9 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--white-color);
-    background: var(--bg-color-main-btn)
+    background: var(--bg-color-main-btn);
+    border: none;
+    
 }
 
 
@@ -210,24 +212,33 @@ body {
 
 /*---------------------------------filters--------------------------------------------------------*/
 
-.first-btn {
+ .filters .btn.current {
+     font-family: inherit;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.62;
+     border: none;
+     cursor: pointer;
+     background-color: var(--bg-color-main-btn);
      color: var(--white-color);
-     background: var(--bg-color-main-btn);
-}
+    }
 
-
-
-
-
+  
 .filters .btn {
+     font-family: inherit;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.62;
      color: var(--dark-color);
      background: var(--bg-color-team-btn);
+     border: none;
+     cursor: pointer;
+}
+
+.filters .btn:hover,
+.filters .btn:focus {
+    background-color: var(--bg-color-main-btn);
+    color: var(--white-color);
 }
 
 
